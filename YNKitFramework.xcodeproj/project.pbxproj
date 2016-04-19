@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB01F56A1BFD7CA800F50C69 /* YNKitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01F55F1BFD7CA800F50C69 /* YNKitFramework.framework */; };
+		AB01F56F1BFD7CA800F50C69 /* YNKitFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB01F56E1BFD7CA800F50C69 /* YNKitFrameworkTests.m */; };
+		AB07C5031C156A400000333D /* YNArrayCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C4F71C156A400000333D /* YNArrayCategory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C5041C156A400000333D /* YNArrayCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C4F81C156A400000333D /* YNArrayCategory.m */; };
+		AB07C5051C156A400000333D /* YNColorCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C4F91C156A400000333D /* YNColorCategory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C5061C156A400000333D /* YNColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C4FA1C156A400000333D /* YNColorCategory.m */; };
+		AB07C5071C156A400000333D /* YNDateCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C4FB1C156A400000333D /* YNDateCategory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C5081C156A400000333D /* YNDateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C4FC1C156A400000333D /* YNDateCategory.m */; };
+		AB07C5091C156A400000333D /* YNImage+Filter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C4FD1C156A400000333D /* YNImage+Filter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C50A1C156A400000333D /* YNImage+Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C4FE1C156A400000333D /* YNImage+Filter.m */; };
+		AB07C50D1C156A400000333D /* YNStringCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C5011C156A400000333D /* YNStringCategory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C50E1C156A400000333D /* YNStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C5021C156A400000333D /* YNStringCategory.m */; };
+		AB07C5141C156A6E0000333D /* YNModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C5101C156A6E0000333D /* YNModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C5151C156A6E0000333D /* YNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C5111C156A6E0000333D /* YNModel.m */; };
+		AB07C5161C156A6E0000333D /* YNParserObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C5121C156A6E0000333D /* YNParserObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C5171C156A6E0000333D /* YNParserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C5131C156A6E0000333D /* YNParserObject.m */; };
+		AB07C51D1C156AF00000333D /* YNCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C51B1C156AF00000333D /* YNCalendar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C51E1C156AF00000333D /* YNCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C51C1C156AF00000333D /* YNCalendar.m */; };
+		AB07C5221C156B1E0000333D /* YNAttributeString.h in Headers */ = {isa = PBXBuildFile; fileRef = AB07C5201C156B1E0000333D /* YNAttributeString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB07C5231C156B1E0000333D /* YNAttributeString.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07C5211C156B1E0000333D /* YNAttributeString.m */; };
+		AB0A81BA1C23D91100EFF674 /* YNWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0A81B81C23D91100EFF674 /* YNWebView.h */; };
+		AB0A81BB1C23D91100EFF674 /* YNWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0A81B91C23D91100EFF674 /* YNWebView.m */; };
+		AB0FBE501C02F37B000ED984 /* YNKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE351C02F37B000ED984 /* YNKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE511C02F37B000ED984 /* YNKitHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE361C02F37B000ED984 /* YNKitHeader.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE521C02F37B000ED984 /* YNButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE371C02F37B000ED984 /* YNButton.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE531C02F37B000ED984 /* YNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0FBE381C02F37B000ED984 /* YNButton.m */; };
+		AB0FBE541C02F37B000ED984 /* YNBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE391C02F37B000ED984 /* YNBarButtonItem.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE551C02F37B000ED984 /* YNBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0FBE3A1C02F37B000ED984 /* YNBarButtonItem.m */; };
+		AB0FBE561C02F37B000ED984 /* YNImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE3B1C02F37B000ED984 /* YNImageView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE571C02F37B000ED984 /* YNImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0FBE3C1C02F37B000ED984 /* YNImageView.m */; };
+		AB0FBE581C02F37B000ED984 /* YNView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE3D1C02F37B000ED984 /* YNView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE591C02F37B000ED984 /* YNView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0FBE3E1C02F37B000ED984 /* YNView.m */; };
+		AB0FBE5A1C02F37B000ED984 /* YNLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE3F1C02F37B000ED984 /* YNLabel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE5B1C02F37B000ED984 /* YNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0FBE401C02F37B000ED984 /* YNLabel.m */; };
+		AB0FBE5C1C02F37B000ED984 /* YNTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE411C02F37B000ED984 /* YNTableView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE5D1C02F37B000ED984 /* YNTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0FBE421C02F37B000ED984 /* YNTableView.m */; };
+		AB0FBE601C02F37B000ED984 /* YNTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0FBE451C02F37B000ED984 /* YNTextField.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB0FBE611C02F37B000ED984 /* YNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0FBE461C02F37B000ED984 /* YNTextField.m */; };
+		AB3475F31C06EF3F001C9C84 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB3475F21C06EF3F001C9C84 /* resource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB01F56B1BFD7CA800F50C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB01F5561BFD7CA800F50C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB01F55E1BFD7CA800F50C69;
+			remoteInfo = YNKitFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB01F55F1BFD7CA800F50C69 /* YNKitFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YNKitFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB01F5621BFD7CA800F50C69 /* YNKitFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YNKitFramework.h; sourceTree = "<group>"; };
+		AB01F5641BFD7CA800F50C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB01F5691BFD7CA800F50C69 /* YNKitFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YNKitFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB01F56E1BFD7CA800F50C69 /* YNKitFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNKitFrameworkTests.m; sourceTree = "<group>"; };
+		AB01F5701BFD7CA800F50C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB07C4F71C156A400000333D /* YNArrayCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNArrayCategory.h; sourceTree = "<group>"; };
+		AB07C4F81C156A400000333D /* YNArrayCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNArrayCategory.m; sourceTree = "<group>"; };
+		AB07C4F91C156A400000333D /* YNColorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNColorCategory.h; sourceTree = "<group>"; };
+		AB07C4FA1C156A400000333D /* YNColorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNColorCategory.m; sourceTree = "<group>"; };
+		AB07C4FB1C156A400000333D /* YNDateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNDateCategory.h; sourceTree = "<group>"; };
+		AB07C4FC1C156A400000333D /* YNDateCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNDateCategory.m; sourceTree = "<group>"; };
+		AB07C4FD1C156A400000333D /* YNImage+Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YNImage+Filter.h"; sourceTree = "<group>"; };
+		AB07C4FE1C156A400000333D /* YNImage+Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YNImage+Filter.m"; sourceTree = "<group>"; };
+		AB07C5011C156A400000333D /* YNStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNStringCategory.h; sourceTree = "<group>"; };
+		AB07C5021C156A400000333D /* YNStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNStringCategory.m; sourceTree = "<group>"; };
+		AB07C5101C156A6E0000333D /* YNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNModel.h; sourceTree = "<group>"; };
+		AB07C5111C156A6E0000333D /* YNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNModel.m; sourceTree = "<group>"; };
+		AB07C5121C156A6E0000333D /* YNParserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNParserObject.h; sourceTree = "<group>"; };
+		AB07C5131C156A6E0000333D /* YNParserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNParserObject.m; sourceTree = "<group>"; };
+		AB07C51B1C156AF00000333D /* YNCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNCalendar.h; sourceTree = "<group>"; };
+		AB07C51C1C156AF00000333D /* YNCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNCalendar.m; sourceTree = "<group>"; };
+		AB07C5201C156B1E0000333D /* YNAttributeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNAttributeString.h; sourceTree = "<group>"; };
+		AB07C5211C156B1E0000333D /* YNAttributeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNAttributeString.m; sourceTree = "<group>"; };
+		AB0A81B81C23D91100EFF674 /* YNWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNWebView.h; sourceTree = "<group>"; };
+		AB0A81B91C23D91100EFF674 /* YNWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNWebView.m; sourceTree = "<group>"; };
+		AB0FBE351C02F37B000ED984 /* YNKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNKit.h; sourceTree = "<group>"; };
+		AB0FBE361C02F37B000ED984 /* YNKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNKitHeader.h; sourceTree = "<group>"; };
+		AB0FBE371C02F37B000ED984 /* YNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNButton.h; sourceTree = "<group>"; };
+		AB0FBE381C02F37B000ED984 /* YNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNButton.m; sourceTree = "<group>"; };
+		AB0FBE391C02F37B000ED984 /* YNBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNBarButtonItem.h; sourceTree = "<group>"; };
+		AB0FBE3A1C02F37B000ED984 /* YNBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNBarButtonItem.m; sourceTree = "<group>"; };
+		AB0FBE3B1C02F37B000ED984 /* YNImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNImageView.h; sourceTree = "<group>"; };
+		AB0FBE3C1C02F37B000ED984 /* YNImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNImageView.m; sourceTree = "<group>"; };
+		AB0FBE3D1C02F37B000ED984 /* YNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNView.h; sourceTree = "<group>"; };
+		AB0FBE3E1C02F37B000ED984 /* YNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNView.m; sourceTree = "<group>"; };
+		AB0FBE3F1C02F37B000ED984 /* YNLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNLabel.h; sourceTree = "<group>"; };
+		AB0FBE401C02F37B000ED984 /* YNLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNLabel.m; sourceTree = "<group>"; };
+		AB0FBE411C02F37B000ED984 /* YNTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNTableView.h; sourceTree = "<group>"; };
+		AB0FBE421C02F37B000ED984 /* YNTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNTableView.m; sourceTree = "<group>"; };
+		AB0FBE451C02F37B000ED984 /* YNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNTextField.h; sourceTree = "<group>"; };
+		AB0FBE461C02F37B000ED984 /* YNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNTextField.m; sourceTree = "<group>"; };
+		AB3475F21C06EF3F001C9C84 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB01F55B1BFD7CA800F50C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB01F5661BFD7CA800F50C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB01F56A1BFD7CA800F50C69 /* YNKitFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB01F5551BFD7CA800F50C69 = {
+			isa = PBXGroup;
+			children = (
+				AB01F5611BFD7CA800F50C69 /* YNKitFramework */,
+				AB01F56D1BFD7CA800F50C69 /* YNKitFrameworkTests */,
+				AB01F5601BFD7CA800F50C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB01F5601BFD7CA800F50C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB01F55F1BFD7CA800F50C69 /* YNKitFramework.framework */,
+				AB01F5691BFD7CA800F50C69 /* YNKitFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB01F5611BFD7CA800F50C69 /* YNKitFramework */ = {
+			isa = PBXGroup;
+			children = (
+				AB07C51F1C156B1E0000333D /* YNAttributeString */,
+				AB07C50F1C156A6E0000333D /* YNModel+json */,
+				AB0FBE341C02F37B000ED984 /* YNFoundation */,
+				AB0FBE471C02F37B000ED984 /* YNKit */,
+				AB01F5621BFD7CA800F50C69 /* YNKitFramework.h */,
+				AB01F5641BFD7CA800F50C69 /* Info.plist */,
+			);
+			path = YNKitFramework;
+			sourceTree = "<group>";
+		};
+		AB01F56D1BFD7CA800F50C69 /* YNKitFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB01F56E1BFD7CA800F50C69 /* YNKitFrameworkTests.m */,
+				AB01F5701BFD7CA800F50C69 /* Info.plist */,
+			);
+			path = YNKitFrameworkTests;
+			sourceTree = "<group>";
+		};
+		AB07C50F1C156A6E0000333D /* YNModel+json */ = {
+			isa = PBXGroup;
+			children = (
+				AB07C5101C156A6E0000333D /* YNModel.h */,
+				AB07C5111C156A6E0000333D /* YNModel.m */,
+				AB07C5121C156A6E0000333D /* YNParserObject.h */,
+				AB07C5131C156A6E0000333D /* YNParserObject.m */,
+			);
+			name = "YNModel+json";
+			path = "../../YNKit/YNKit/YNModel+json";
+			sourceTree = "<group>";
+		};
+		AB07C51F1C156B1E0000333D /* YNAttributeString */ = {
+			isa = PBXGroup;
+			children = (
+				AB07C5201C156B1E0000333D /* YNAttributeString.h */,
+				AB07C5211C156B1E0000333D /* YNAttributeString.m */,
+			);
+			name = YNAttributeString;
+			path = ../../YNKit/YNKit/YNAttributeString;
+			sourceTree = "<group>";
+		};
+		AB0FBE341C02F37B000ED984 /* YNFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				AB07C4F71C156A400000333D /* YNArrayCategory.h */,
+				AB07C4F81C156A400000333D /* YNArrayCategory.m */,
+				AB07C4F91C156A400000333D /* YNColorCategory.h */,
+				AB07C4FA1C156A400000333D /* YNColorCategory.m */,
+				AB07C4FB1C156A400000333D /* YNDateCategory.h */,
+				AB07C4FC1C156A400000333D /* YNDateCategory.m */,
+				AB07C4FD1C156A400000333D /* YNImage+Filter.h */,
+				AB07C4FE1C156A400000333D /* YNImage+Filter.m */,
+				AB07C5011C156A400000333D /* YNStringCategory.h */,
+				AB07C5021C156A400000333D /* YNStringCategory.m */,
+			);
+			name = YNFoundation;
+			path = ../../YNKit/YNKit/YNFoundation;
+			sourceTree = "<group>";
+		};
+		AB0FBE471C02F37B000ED984 /* YNKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB0FBE351C02F37B000ED984 /* YNKit.h */,
+				AB0FBE361C02F37B000ED984 /* YNKitHeader.h */,
+				AB0A81B81C23D91100EFF674 /* YNWebView.h */,
+				AB0A81B91C23D91100EFF674 /* YNWebView.m */,
+				AB0FBE371C02F37B000ED984 /* YNButton.h */,
+				AB0FBE381C02F37B000ED984 /* YNButton.m */,
+				AB0FBE391C02F37B000ED984 /* YNBarButtonItem.h */,
+				AB0FBE3A1C02F37B000ED984 /* YNBarButtonItem.m */,
+				AB0FBE3B1C02F37B000ED984 /* YNImageView.h */,
+				AB0FBE3C1C02F37B000ED984 /* YNImageView.m */,
+				AB0FBE3D1C02F37B000ED984 /* YNView.h */,
+				AB0FBE3E1C02F37B000ED984 /* YNView.m */,
+				AB0FBE3F1C02F37B000ED984 /* YNLabel.h */,
+				AB0FBE401C02F37B000ED984 /* YNLabel.m */,
+				AB0FBE411C02F37B000ED984 /* YNTableView.h */,
+				AB0FBE421C02F37B000ED984 /* YNTableView.m */,
+				AB0FBE451C02F37B000ED984 /* YNTextField.h */,
+				AB0FBE461C02F37B000ED984 /* YNTextField.m */,
+				AB07C51B1C156AF00000333D /* YNCalendar.h */,
+				AB07C51C1C156AF00000333D /* YNCalendar.m */,
+				AB3475F21C06EF3F001C9C84 /* resource.bundle */,
+			);
+			name = YNKit;
+			path = ../../YNKit/YNKit/YNKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB01F55C1BFD7CA800F50C69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0FBE501C02F37B000ED984 /* YNKit.h in Headers */,
+				AB0FBE511C02F37B000ED984 /* YNKitHeader.h in Headers */,
+				AB0FBE5A1C02F37B000ED984 /* YNLabel.h in Headers */,
+				AB0FBE561C02F37B000ED984 /* YNImageView.h in Headers */,
+				AB0FBE541C02F37B000ED984 /* YNBarButtonItem.h in Headers */,
+				AB0FBE601C02F37B000ED984 /* YNTextField.h in Headers */,
+				AB07C5141C156A6E0000333D /* YNModel.h in Headers */,
+				AB07C5161C156A6E0000333D /* YNParserObject.h in Headers */,
+				AB07C50D1C156A400000333D /* YNStringCategory.h in Headers */,
+				AB07C5091C156A400000333D /* YNImage+Filter.h in Headers */,
+				AB07C5031C156A400000333D /* YNArrayCategory.h in Headers */,
+				AB07C5071C156A400000333D /* YNDateCategory.h in Headers */,
+				AB0A81BA1C23D91100EFF674 /* YNWebView.h in Headers */,
+				AB07C5051C156A400000333D /* YNColorCategory.h in Headers */,
+				AB0FBE521C02F37B000ED984 /* YNButton.h in Headers */,
+				AB0FBE581C02F37B000ED984 /* YNView.h in Headers */,
+				AB07C5221C156B1E0000333D /* YNAttributeString.h in Headers */,
+				AB07C51D1C156AF00000333D /* YNCalendar.h in Headers */,
+				AB0FBE5C1C02F37B000ED984 /* YNTableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB01F55E1BFD7CA800F50C69 /* YNKitFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB01F5731BFD7CA800F50C69 /* Build configuration list for PBXNativeTarget "YNKitFramework" */;
+			buildPhases = (
+				AB01F55A1BFD7CA800F50C69 /* Sources */,
+				AB01F55B1BFD7CA800F50C69 /* Frameworks */,
+				AB01F55C1BFD7CA800F50C69 /* Headers */,
+				AB01F55D1BFD7CA800F50C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNKitFramework;
+			productName = YNKitFramework;
+			productReference = AB01F55F1BFD7CA800F50C69 /* YNKitFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB01F5681BFD7CA800F50C69 /* YNKitFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB01F5761BFD7CA800F50C69 /* Build configuration list for PBXNativeTarget "YNKitFrameworkTests" */;
+			buildPhases = (
+				AB01F5651BFD7CA800F50C69 /* Sources */,
+				AB01F5661BFD7CA800F50C69 /* Frameworks */,
+				AB01F5671BFD7CA800F50C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB01F56C1BFD7CA800F50C69 /* PBXTargetDependency */,
+			);
+			name = YNKitFrameworkTests;
+			productName = YNKitFrameworkTests;
+			productReference = AB01F5691BFD7CA800F50C69 /* YNKitFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB01F5561BFD7CA800F50C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.application.qiyun;
+				TargetAttributes = {
+					AB01F55E1BFD7CA800F50C69 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AB01F5681BFD7CA800F50C69 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = AB01F5591BFD7CA800F50C69 /* Build configuration list for PBXProject "YNKitFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB01F5551BFD7CA800F50C69;
+			productRefGroup = AB01F5601BFD7CA800F50C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB01F55E1BFD7CA800F50C69 /* YNKitFramework */,
+				AB01F5681BFD7CA800F50C69 /* YNKitFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB01F55D1BFD7CA800F50C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3475F31C06EF3F001C9C84 /* resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB01F5671BFD7CA800F50C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB01F55A1BFD7CA800F50C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB07C5231C156B1E0000333D /* YNAttributeString.m in Sources */,
+				AB07C5061C156A400000333D /* YNColorCategory.m in Sources */,
+				AB07C50E1C156A400000333D /* YNStringCategory.m in Sources */,
+				AB0FBE611C02F37B000ED984 /* YNTextField.m in Sources */,
+				AB0FBE5D1C02F37B000ED984 /* YNTableView.m in Sources */,
+				AB0FBE531C02F37B000ED984 /* YNButton.m in Sources */,
+				AB07C5171C156A6E0000333D /* YNParserObject.m in Sources */,
+				AB0A81BB1C23D91100EFF674 /* YNWebView.m in Sources */,
+				AB07C50A1C156A400000333D /* YNImage+Filter.m in Sources */,
+				AB0FBE571C02F37B000ED984 /* YNImageView.m in Sources */,
+				AB07C51E1C156AF00000333D /* YNCalendar.m in Sources */,
+				AB0FBE5B1C02F37B000ED984 /* YNLabel.m in Sources */,
+				AB07C5041C156A400000333D /* YNArrayCategory.m in Sources */,
+				AB0FBE591C02F37B000ED984 /* YNView.m in Sources */,
+				AB0FBE551C02F37B000ED984 /* YNBarButtonItem.m in Sources */,
+				AB07C5081C156A400000333D /* YNDateCategory.m in Sources */,
+				AB07C5151C156A6E0000333D /* YNModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB01F5651BFD7CA800F50C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB01F56F1BFD7CA800F50C69 /* YNKitFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB01F56C1BFD7CA800F50C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB01F55E1BFD7CA800F50C69 /* YNKitFramework */;
+			targetProxy = AB01F56B1BFD7CA800F50C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB01F5711BFD7CA800F50C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB01F5721BFD7CA800F50C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB01F5741BFD7CA800F50C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YNKitFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------.YNKitFramework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		AB01F5751BFD7CA800F50C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YNKitFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "-------.YNKitFramework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		AB01F5771BFD7CA800F50C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YNKitFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------.YNKitFrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB01F5781BFD7CA800F50C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YNKitFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-------.YNKitFrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB01F5591BFD7CA800F50C69 /* Build configuration list for PBXProject "YNKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB01F5711BFD7CA800F50C69 /* Debug */,
+				AB01F5721BFD7CA800F50C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB01F5731BFD7CA800F50C69 /* Build configuration list for PBXNativeTarget "YNKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB01F5741BFD7CA800F50C69 /* Debug */,
+				AB01F5751BFD7CA800F50C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB01F5761BFD7CA800F50C69 /* Build configuration list for PBXNativeTarget "YNKitFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB01F5771BFD7CA800F50C69 /* Debug */,
+				AB01F5781BFD7CA800F50C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB01F5561BFD7CA800F50C69 /* Project object */;
+}
